@@ -3,9 +3,6 @@ body {
   background-size: cover;
 }
 
-.wrapper {
-  position: relative;
-}
 
 .content {
   position: absolute;
@@ -14,23 +11,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.logo {
-  width: 350px;
-  height: auto;
-  animation-name: pulse_animation;
-  animation-duration: 2000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes pulse_animation {
-	0% { width: 275px; height: auto; }
-	20% { width: 275px; height: auto; }
-  40% { width: 300px; height: auto; }
-  60% { width: 325px; height: auto; }
-  80% { width: 300px; height: auto; }
-  100% { width: 275px; height: auto; }
-}
 
 .icon {
   width: 150px;
