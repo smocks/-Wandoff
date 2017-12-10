@@ -1,7 +1,6 @@
 body {
   background: url("https://cdn.discordapp.com/attachments/384146764627968010/385666555511439371/space_background_final.png");
   background-size: cover;
-  max-height: 100vh;
 }
 
 
@@ -12,7 +11,6 @@ body {
   background-color: transparent;
   background-image: url("");
   background-repeat: no-repeat;
-  background-sizer: cover;
   background-position: 50% 50%;
 }
 
@@ -27,14 +25,6 @@ body {
 .logo {
   max-height: 400px;
   width: auto;
-}
-
-.social-box {
-  background: #000;
-  opacity: .5;
-  width: 400px;
-  height: 100px;
-  border-radius: 25px;
 }
 
 .icon-container {
